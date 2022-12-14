@@ -25,7 +25,9 @@
         </div>
       </ul>
       <p appBasicHighlight>This is styled by BasicHighlightDirective</p>
-      <p appBetterHighlight>This is styled by BetterHighlightDirective</p>
+      <p appBetterHighlight [defaultColor]="'black'" [highlightColor]="'pink'">
+        This is styled by BetterHighlightDirective
+      </p>
     </div>
   </div>
 </div>
